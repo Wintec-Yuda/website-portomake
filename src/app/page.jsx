@@ -70,71 +70,47 @@ export default function LandingPage() {
 
   const portfolioCategories = [
     {
-      name: "Web Developer",
+      name: "IT Developer",
       icon: <FaCode className="text-2xl" />,
       items: [
         {
-          title: "Portfolio Fullstack Developer",
-          desc: "I am a Full Stack Web Developer with expertise in backend and frontend development",
-          image: "/portfolio-preview.png",
+          title: "Fullstack Developer",
+          desc: "I am a Full Stack Web Developer with expertise in backend and frontend development.",
+          image: "/yuda.png",
           link: "https://website-portfolio-henna.vercel.app/"
+        },
+        {
+          title: "UI/UX Designer & Frontend Engineer",
+          desc: "An individual with high enthusiasm for delving into digital technology.",
+          image: "/farih.png",
+          link: "https://website-portfolio-henna.vercel.app/farih"
+        },
+      ]
+    },
+    {
+      name: "Media Sosial",
+      icon: <FiCamera className="text-2xl" />,
+      items: [
+        {
+          title: "Digital Media Specialist",
+          desc: "GInformatics Engineering Student with a passion for data science and digital marketing",
+          image: "/tito.png",
+          link: "https://website-portfolio-henna.vercel.app/tito"
         }
       ]
     },
-    // {
-    //   name: "Content Creator",
-    //   icon: <FiCamera className="text-2xl" />,
-    //   items: [
-    //     {
-    //       title: "Portfolio YouTuber",
-    //       desc: "Gallery video dan statistik channel",
-    //       image: "/creator-portfolio-1.jpg",
-    //       link: "https://example.com/creator1"
-    //     },
-    //     {
-    //       title: "Portfolio Podcaster",
-    //       desc: "Daftar episode dan testimoni",
-    //       image: "/creator-portfolio-2.jpg",
-    //       link: "https://example.com/creator2"
-    //     }
-    //   ]
-    // },
-    // {
-    //   name: "Desainer Kreatif",
-    //   icon: <FiPenTool className="text-2xl" />,
-    //   items: [
-    //     {
-    //       title: "Portfolio Desain Grafis",
-    //       desc: "Koleksi karya desain dan branding",
-    //       image: "/design-portfolio-1.jpg",
-    //       link: "https://example.com/design1"
-    //     },
-    //     {
-    //       title: "Portfolio Fotografer",
-    //       desc: "Gallery foto profesional",
-    //       image: "/design-portfolio-2.jpg",
-    //       link: "https://example.com/design2"
-    //     }
-    //   ]
-    // },
-    // {
-    //   name: "Profesional Bisnis",
-    //   icon: <FaUserTie className="text-2xl" />,
-    //   items: [
-    //     {
-    //       title: "Portfolio Konsultan",
-    //       desc: "Profil profesional dan case study",
-    //       image: "/business-portfolio-1.jpg",
-    //       link: "https://example.com/business1"
-    //     },
-    //     {
-    //       title: "Portfolio Marketing",
-    //       desc: "Campaign dan hasil kerja",
-    //       image: "/business-portfolio-2.jpg",
-    //       link: "https://example.com/business2"
-    //     }
-    //   ]
-    // }
+    {
+      name: "Others",
+      icon: <FiPenTool className="text-2xl" />,
+      items: [
+        {
+          title: "Animal Husbandry",
+          desc: "I'm a 24-year-old graduate with a Bachelor's degree in Animal Husbandry from Nusantara PGRI University Kediri.",
+          image: "/hebi.png",
+          link: "https://website-portfolio-henna.vercel.app/hebi"
+        }
+      ]
+    },
   ];
 
   const steps = [
@@ -348,8 +324,8 @@ export default function LandingPage() {
                 </div>
               </div>
               <img 
-                src="/portfolio-preview.png" 
-                alt="Preview Portfolio" 
+                src="/yuda.png" 
+                alt="Yuda Portfolio" 
                 className="w-full h-auto rounded-b-lg"
               />
             </div>
