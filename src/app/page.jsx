@@ -152,7 +152,7 @@ export default function LandingPage() {
     },
     {
       step: "3",
-      title: "Tunggu 1-2 Jam",
+      title: "Tunggu 1-2 Hari",
       desc: "Kami kerjakan portfolio Anda dengan cepat",
       icon: <FiClock className="w-6 h-6" />
     },
@@ -295,7 +295,7 @@ export default function LandingPage() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              <span className="text-blue-600">Portfolio Profesional</span> dalam 1-2 Jam
+              <span className="text-blue-600">Portfolio Profesional</span> dalam 1-2 Hari
             </h1>
             <p className="mt-6 text-lg text-gray-600">
               Dari CV biasa ke website portfolio elegan. Tanpa ribet, tanpa coding.
@@ -303,7 +303,7 @@ export default function LandingPage() {
             
             <div className="mt-6 flex flex-wrap gap-3">
               {[
-                { icon: <FiClock />, text: "Proses 1-2 jam" },
+                { icon: <FiClock />, text: "Proses 1-2 Hari" },
                 { icon: <FiGift />, text: "Domain gratis" },
                 { icon: <FiLayers />, text: "Terima beres" }
               ].map((item, i) => (
